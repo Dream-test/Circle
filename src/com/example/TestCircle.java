@@ -34,7 +34,6 @@ public class TestCircle {
         circle.setRadius(-2.5);
         if (!compareDouble(circle.getRadius(), 0)) {
             System.out.println("testSetRadius: FAILURE: expected r = 2, got " + circle.getRadius());
-            return;
         }
         else {
             System.out.println("testSetRadius: OK");
